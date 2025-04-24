@@ -7,10 +7,10 @@ for x in range(len(nombres)):
     print(roles[x])
     print(activos[x])
     print("Usuario mostrado")
-
+ 
     match activos[x]:
         case True:
-            print("El usuario ",nombres[x],"esta activo")
+            print("El usuario ",nombres[x],"Tiene el rol de ",roles[x],"y esta activo")
         case False:
-            print("El usuario ",nombres[x],"Esta inactivo")
+            print("El usuario ",nombres[x],"Tiene el rol de ",roles[x],"y esta inactivo")
     print(x)
